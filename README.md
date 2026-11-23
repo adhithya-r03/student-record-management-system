@@ -26,13 +26,12 @@ typedef struct student {
 ## Project Structure
 ```text
 .
-├── main.c          # Menu loop and program entry point
+├── stud_main.c     # Menu loop and program entry point
 ├── stud_add.c      # Add student & next available roll number logic
 ├── stud_show.c     # Display records with %.2f percentage formatting
 ├── stud_mod.c      # Modify existing student records
 ├── stud_del.c      # Delete student nodes and free memory
-├── stud_sort.c     # Sort / reverse linked list nodes
-├── stud_file.c     # Save to and load from file
-├── validate.c      # Input reading and validation helpers
+├── stud_save.c     # Save to and load from file
+├── student.h       # contains global variables and function declarations
 └── README.md
 ```
