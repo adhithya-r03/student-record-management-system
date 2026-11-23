@@ -8,8 +8,7 @@ A console-based Student Database Management System written in **C** using a dyna
 - **Automatic Unique Roll Number Assignment**: Finds the smallest available positive roll number (`1, 2, 3, ...`) not currently in use, even after deletions, sorting, or list reversal.
 - **Add, Display, Modify & Delete Records**: Manage student entries interactively with clean `%.2f` percentage formatting.
 - **Sorting & Link Reversal**: Sort records or reverse node links using pointer manipulation while keeping each student's fields intact.
-- **Input Validation**: Guards against empty or whitespace-only names, buffer/newline issues, and out-of-range or malformed inputs.
-- **File Persistence**: Saves and loads student records from a data file (e.g., `student.dat` / `students.txt`) across program runs.
+- **File Persistence**: Saves and loads student records from a data file (`student.dat`) across program runs.
 
 ## Data Structure
 
